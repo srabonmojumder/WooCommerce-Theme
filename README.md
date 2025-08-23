@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Stacker - Modern WooCommerce Theme
 
-## Getting Started
+![Stacker Theme Preview](preview-images/main-preview.jpg)
 
-First, run the development server:
+**Stacker** is a modern, responsive WooCommerce theme built with Next.js and Tailwind CSS. It offers a clean, professional design perfect for any e-commerce store.
+
+## 🚀 Features
+
+- **Modern Design**: Clean and professional layout
+- **Fully Responsive**: Works perfectly on all devices
+- **WooCommerce Ready**: Full WooCommerce integration
+- **Next.js 15**: Built with the latest Next.js framework
+- **Tailwind CSS**: Utility-first CSS framework
+- **TypeScript**: Full TypeScript support
+- **Dark Mode**: Built-in dark/light mode toggle
+- **SEO Optimized**: Search engine friendly
+- **Fast Loading**: Optimized for performance
+- **Easy Customization**: Well-organized code structure
+
+## 📋 Requirements
+
+- Node.js 18.0 or higher
+- npm, yarn, or pnpm package manager
+- WooCommerce-enabled WordPress site (for backend)
+
+## 🛠️ Installation
+
+### Quick Start
+
+1. **Extract the theme files** to your desired directory
+2. **Install dependencies**:
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
+
+3. **Configure environment variables**:
+   ```bash
+   cp .env.example .env.local
+   ```
+   Edit `.env.local` with your WooCommerce API credentials
+
+4. **Run the development server**:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
+
+5. **Open your browser** and navigate to [http://localhost:3000](http://localhost:3000)
+
+### Production Build
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 File Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+stacker-woocommerce-theme/
+├── docs/                    # Documentation files
+├── licensing/              # License files
+├── preview-images/         # Theme preview images
+├── src/
+│   ├── app/               # Next.js app directory
+│   ├── components/        # React components
+│   ├── lib/              # Utility functions
+│   └── styles/           # CSS styles
+├── public/               # Static assets
+├── package.json          # Dependencies
+└── README.md            # This file
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎨 Customization
 
-## Learn More
+### Colors and Styling
+- Edit `tailwind.config.js` to customize colors, fonts, and spacing
+- Modify CSS variables in `src/app/globals.css`
 
-To learn more about Next.js, take a look at the following resources:
+### Components
+- All components are located in `src/components/`
+- Each component is fully customizable and well-documented
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Pages
+- Page components are in `src/app/`
+- Follow Next.js 15 app directory structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📖 Documentation
 
-## Deploy on Vercel
+For detailed documentation, please refer to:
+- [Installation Guide](docs/installation.md)
+- [Customization Guide](docs/customization.md)
+- [API Reference](docs/api-reference.md)
+- [Troubleshooting](docs/troubleshooting.md)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔄 Changelog
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+See [CHANGELOG.md](CHANGELOG.md) for version history and updates.
+
+## 📄 License
+
+This theme is licensed under GPL v2.0. See [LICENSE](licensing/LICENSE) for details.
+
+## 🆘 Support
+
+If you need help with this theme:
+1. Check the [documentation](docs/)
+2. Review [troubleshooting guide](docs/troubleshooting.md)
+3. Contact support through your ThemeForest account
+
+## 🙏 Credits
+
+- Built with [Next.js](https://nextjs.org/)
+- Styled with [Tailwind CSS](https://tailwindcss.com/)
+- Icons by [Heroicons](https://heroicons.com/) and [Lucide](https://lucide.dev/)
+
+---
+
+**Version**: 1.0.0
+**Author**: Your Name
+**Last Updated**: January 2025
