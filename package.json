@@ -1,46 +1,31 @@
 {
-  "name": "stacker-woocommerce-theme",
+  "name": "fresh-nextjs-tailwind-project",
   "version": "1.0.0",
-  "description": "Stacker - Modern WooCommerce Theme built with Next.js and Tailwind CSS",
+  "description": "A fresh Next.js project with Tailwind CSS",
   "author": "Your Name",
-  "license": "GPL-2.0",
-  "keywords": ["nextjs", "woocommerce", "ecommerce", "theme", "tailwindcss", "react"],
-  "homepage": "https://your-demo-url.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yourusername/stacker-woocommerce-theme"
-  },
-  "private": false,
+  "license": "MIT",
+  "keywords": ["nextjs", "tailwindcss", "react", "typescript"],
+  "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "export": "next build && next export",
-    "type-check": "tsc --noEmit",
-    "preview": "npm run build && npm run start"
+    "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^2.2.7",
-    "@heroicons/react": "^2.2.0",
-    "clsx": "^2.1.1",
-    "framer-motion": "^12.23.12",
-    "lucide-react": "^0.541.0",
     "next": "15.5.0",
-    "next-themes": "^0.4.6",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "tailwind-merge": "^3.3.1"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
     "@types/node": "^20.19.11",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.16",
     "eslint": "^9",
     "eslint-config-next": "15.5.0",
-    "tailwindcss": "^4",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
     "typescript": "^5"
   }
 }
